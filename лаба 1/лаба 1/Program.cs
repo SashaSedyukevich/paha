@@ -10,6 +10,20 @@ namespace l1
     {
         static void Main(string[] args)
         {
+            Kvit();
+            Console.ReadKey();
+        }
+
+
+        static void Kvit()
+        {
+            Kvit kvit = new Kvit();
+            kvit.SetInfo();
+            kvit.GetInfo();
+            Console.WriteLine();
+
+
         }
     }
-}
+
+
