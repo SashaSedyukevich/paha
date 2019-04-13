@@ -25,5 +25,24 @@ namespace l1
 
         }
     }
+    class Kvit
+    {
+        public int Number { get; set; }
+        public string Data { get; set; }
+        public float Sum { get; set; }
 
+        public Kvit(int number, string data, float sum)
+        {
+            Number = number;
+            Data = data;
+            Sum = sum;
+        }
 
+        public Kvit()
+        {
+            Number = 0;
+            Data = "";
+            Sum = 0;
+        }
+    }
+}
